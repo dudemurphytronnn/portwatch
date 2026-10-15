@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+ <channel>
+  <title>PortWatch: compatibility layers, by what they ship</title>
+  <link>https://portwatch.vercel.app/</link>
+  <description>Emulators, compatibility layers and recompilation projects, with stars per day, licenses and fork notes. Snapshot 2026-10-15.</description>
+  <language>en</language>
+  <lastBuildDate>Thu, 15 Oct 2026 12:00:00 GMT</lastBuildDate>
+  <item>
+   <title>alan-r-henry/ps5-emu-tracker: 0 stars/day avg</title>
+   <link>https://github.com/alan-r-henry/ps5-emu-tracker</link>
+   <guid isPermaLink="false">portwatch:alan-r-henry/ps5-emu-tracker:2026-10-15</guid>
+   <pubDate>Tue, 13 Oct 2026 12:00:00 GMT</pubDate>
+   <description>A daily tracker of PS5 emulation progress on PC across AnyPS5, KytyPS5 and SharpEmu. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>jhaizhou-ops/d2r-mobile: 1016 stars/day avg</title>
+   <link>https://github.com/jhaizhou-ops/d2r-mobile</link>
+   <guid isPermaLink="false">portwatch:jhaizhou-ops/d2r-mobile:2026-10-15</guid>
+   <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+   <description>Runs your own Switch copy of Diablo II: Resurrected natively on iPhone, iPad and Mac. 3048 stars at the 2026-10-15 snapshot. Own copy required, stated by the project.</description>
+  </item>
+  <item>
+   <title>d2r-mobile/d2r-mobile: 22 stars/day avg</title>
+   <link>https://github.com/d2r-mobile/d2r-mobile</link>
+   <guid isPermaLink="false">portwatch:d2r-mobile/d2r-mobile:2026-10-15</guid>
+   <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+   <description>Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy. 65 stars at the 2026-10-15 snapshot. Own copy required, stated by the project.</description>
+  </item>
+  <item>
+   <title>doctorqueue/d2r-mobile: 0 stars/day avg</title>
+   <link>https://github.com/doctorqueue/d2r-mobile</link>
+   <guid isPermaLink="false">portwatch:doctorqueue/d2r-mobile:2026-10-15</guid>
+   <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+   <description>Same description as d2r-mobile/d2r-mobile, published the same day. Diablo II: Resurrected on iPhone and iPad from your own Switch copy. 0 stars at the 2026-10-15 snapshot. Own copy required, stated by the project.</description>
+  </item>
+  <item>
+   <title>lixiaolin94/d2r-mobile: 0 stars/day avg</title>
+   <link>https://github.com/lixiaolin94/d2r-mobile</link>
+   <guid isPermaLink="false">portwatch:lixiaolin94/d2r-mobile:2026-10-15</guid>
+   <pubDate>Mon, 12 Oct 2026 12:00:00 GMT</pubDate>
+   <description>An iOS compatibility layer for Diablo II: Resurrected that runs your own Switch copy on iPhone and iPad. 0 stars at the 2026-10-15 snapshot. Own copy required, stated by the project.</description>
+  </item>
+  <item>
+   <title>WhySooooFurious/nvidia-macos-driver: 1 stars/day avg</title>
+   <link>https://github.com/WhySooooFurious/nvidia-macos-driver</link>
+   <guid isPermaLink="false">portwatch:WhySooooFurious/nvidia-macos-driver:2026-10-15</guid>
+   <pubDate>Sun, 11 Oct 2026 12:00:00 GMT</pubDate>
+   <description>A copy of the NullMoth NVIDIA driver that adds macOS Tahoe fixes and an install/uninstall backup fix. 3 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>joseteo/nvidia-macos-opencore: 0 stars/day avg</title>
+   <link>https://github.com/joseteo/nvidia-macos-opencore</link>
+   <guid isPermaLink="false">portwatch:joseteo/nvidia-macos-opencore:2026-10-15</guid>
+   <pubDate>Sat, 10 Oct 2026 12:00:00 GMT</pubDate>
+   <description>A command-line helper that installs the NullMoth NVIDIA driver and repairs OpenCore config for Turing GPUs on macOS 15. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>kingsleydon/abl-dualboot: 1 stars/day avg</title>
+   <link>https://github.com/kingsleydon/abl-dualboot</link>
+   <guid isPermaLink="false">portwatch:kingsleydon/abl-dualboot:2026-10-15</guid>
+   <pubDate>Fri, 09 Oct 2026 12:00:00 GMT</pubDate>
+   <description>One-tap switching between Android and Linux on handhelds that use the ROCKNIX bootloader. 3 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>t4t5/omdrop-owl: 391 stars/day avg</title>
+   <link>https://github.com/t4t5/omdrop-owl</link>
+   <guid isPermaLink="false">portwatch:t4t5/omdrop-owl:2026-10-15</guid>
+   <pubDate>Thu, 08 Oct 2026 12:00:00 GMT</pubDate>
+   <description>AirDrop for non-Apple devices, built on the open AWDL implementation OWL. 2734 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>nullmoth/nvidia-macos-driver: 391 stars/day avg</title>
+   <link>https://github.com/nullmoth/nvidia-macos-driver</link>
+   <guid isPermaLink="false">portwatch:nullmoth/nvidia-macos-driver:2026-10-15</guid>
+   <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+   <description>A Metal driver that lets NVIDIA GeForce cards work on macOS Sequoia. 3125 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>dhlim89/ESDE-Sync-for-SteamOS: 0 stars/day avg</title>
+   <link>https://github.com/dhlim89/ESDE-Sync-for-SteamOS</link>
+   <guid isPermaLink="false">portwatch:dhlim89/ESDE-Sync-for-SteamOS:2026-10-15</guid>
+   <pubDate>Wed, 07 Oct 2026 12:00:00 GMT</pubDate>
+   <description>Syncs an ES-DE frontend library between SteamOS, Android devices and Dropbox. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>shihabal3amri/DiPlay: 519 stars/day avg</title>
+   <link>https://github.com/shihabal3amri/DiPlay</link>
+   <guid isPermaLink="false">portwatch:shihabal3amri/DiPlay:2026-10-15</guid>
+   <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+   <description>A CarPlay receiver that runs on compatible Android car head units. 10908 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>Droid-Deck/DroidDeck: 424 stars/day avg</title>
+   <link>https://github.com/Droid-Deck/DroidDeck</link>
+   <guid isPermaLink="false">portwatch:Droid-Deck/DroidDeck:2026-10-15</guid>
+   <pubDate>Thu, 24 Sep 2026 12:00:00 GMT</pubDate>
+   <description>Brings the SteamOS experience to Android devices. 8904 stars at the 2026-10-15 snapshot. Own copy required (PortWatch rule).</description>
+  </item>
+  <item>
+   <title>Loopayeh/pkg-sender: 6 stars/day avg</title>
+   <link>https://github.com/Loopayeh/pkg-sender</link>
+   <guid isPermaLink="false">portwatch:Loopayeh/pkg-sender:2026-10-15</guid>
+   <pubDate>Fri, 18 Sep 2026 12:00:00 GMT</pubDate>
+   <description>Installs PS4 and PS5 packages over the local network from a PC, with console auto-discovery. 160 stars at the 2026-10-15 snapshot. Own copy required (PortWatch rule).</description>
+  </item>
+  <item>
+   <title>chemix444/steamdeck-waydroid-setup: 0 stars/day avg</title>
+   <link>https://github.com/chemix444/steamdeck-waydroid-setup</link>
+   <guid isPermaLink="false">portwatch:chemix444/steamdeck-waydroid-setup:2026-10-15</guid>
+   <pubDate>Fri, 07 Aug 2026 12:00:00 GMT</pubDate>
+   <description>Step-by-step reproduction of a working Waydroid (Android 13) install on a Steam Deck, including ARM translation. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>boykopovar/AnyPS5: 527 stars/day avg</title>
+   <link>https://github.com/boykopovar/AnyPS5</link>
+   <guid isPermaLink="false">portwatch:boykopovar/AnyPS5:2026-10-15</guid>
+   <pubDate>Mon, 03 Aug 2026 12:00:00 GMT</pubDate>
+   <description>Ports PS5 executables so they run on Linux and Windows, with automatic translation of graphics code to SPIR-V. 38466 stars at the 2026-10-15 snapshot. Own copy required (PortWatch rule).</description>
+  </item>
+  <item>
+   <title>ahmedalqamzi/netflix-waydroid-steamos: 0 stars/day avg</title>
+   <link>https://github.com/ahmedalqamzi/netflix-waydroid-steamos</link>
+   <guid isPermaLink="false">portwatch:ahmedalqamzi/netflix-waydroid-steamos:2026-10-15</guid>
+   <pubDate>Tue, 21 Jul 2026 12:00:00 GMT</pubDate>
+   <description>A launcher that opens the Android Netflix app through Waydroid on SteamOS. 1 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>ahmedalqamzi/x-waydroid-steamos: 0 stars/day avg</title>
+   <link>https://github.com/ahmedalqamzi/x-waydroid-steamos</link>
+   <guid isPermaLink="false">portwatch:ahmedalqamzi/x-waydroid-steamos:2026-10-15</guid>
+   <pubDate>Tue, 21 Jul 2026 12:00:00 GMT</pubDate>
+   <description>A launcher for the Android X app through Waydroid on SteamOS, with controller and Siri Remote input. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>theredenemy/SteamOS-Waydroid-Installer-androidtv: 0 stars/day avg</title>
+   <link>https://github.com/theredenemy/SteamOS-Waydroid-Installer-androidtv</link>
+   <guid isPermaLink="false">portwatch:theredenemy/SteamOS-Waydroid-Installer-androidtv:2026-10-15</guid>
+   <pubDate>Thu, 09 Jan 2025 12:00:00 GMT</pubDate>
+   <description>An Android TV variant of the SteamOS Waydroid installer, with the same description as the tech2mar script. 0 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>Lowena-Cove/Piston: 0 stars/day avg</title>
+   <link>https://github.com/Lowena-Cove/Piston</link>
+   <guid isPermaLink="false">portwatch:Lowena-Cove/Piston:2026-10-15</guid>
+   <pubDate>Sat, 14 Dec 2024 12:00:00 GMT</pubDate>
+   <description>Aims to run SteamOS as an app on Android devices. 8 stars at the 2026-10-15 snapshot. Own copy required (PortWatch rule).</description>
+  </item>
+  <item>
+   <title>Room-8-Group-LTD/REI: 0 stars/day avg</title>
+   <link>https://github.com/Room-8-Group-LTD/REI</link>
+   <guid isPermaLink="false">portwatch:Room-8-Group-LTD/REI:2026-10-15</guid>
+   <pubDate>Tue, 23 Jan 2024 12:00:00 GMT</pubDate>
+   <description>A cross-platform rendering framework and graphics API meant to make porting games between PC, consoles and mobile simpler. 72 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+  <item>
+   <title>tech2mar/SteamOS-Waydroid-Installer: 0 stars/day avg</title>
+   <link>https://github.com/tech2mar/SteamOS-Waydroid-Installer</link>
+   <guid isPermaLink="false">portwatch:tech2mar/SteamOS-Waydroid-Installer:2026-10-15</guid>
+   <pubDate>Wed, 13 Dec 2023 12:00:00 GMT</pubDate>
+   <description>A script that installs or removes Android (via Waydroid) on a Steam Deck running SteamOS. 4 stars at the 2026-10-15 snapshot. No game files involved.</description>
+  </item>
+ </channel>
+</rss>

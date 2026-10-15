@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About, rules and takedowns · PortWatch</title>
+<meta name="description" content="What PortWatch is, how its numbers are worked out, the listing rules that keep it lawful, how moderation and fork notes work, and how to send a takedown or DMCA notice.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PortWatch">
+<meta property="og:title" content="About PortWatch: the rules and the takedown policy">
+<meta property="og:description" content="Public repos only, metadata only, no game files. How listings are checked and how to ask for removal.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="PortWatch" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="about">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="PortWatch home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="6" fill="currentColor"/><path d="M7.5 10.5h7v11h-7z" fill="none" style="stroke:var(--paper)" stroke-width="2"/><path d="M14.5 16h10m-4-4 4 4-4 4" style="stroke:var(--signal)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PortWatch
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html#rising">Rising</a></li>
+        <li><a href="index.html#catalogue">Catalogue</a></li>
+        <li><a href="index.html#forks">Fork map</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a class="nav-cta" href="submit.html">Submit a repo</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <article class="wrap prose">
+    <h1>A neutral place to check the claim</h1>
+    <p class="intro">"80% ported." "GPU instructions half mapped." Progress claims travel faster than commits. PortWatch puts each project's own words next to what its public repo shows, so you can judge the gap yourself.</p>
+
+    <h2 id="what">What it covers</h2>
+    <p>Open-source compatibility layers, emulators, recompilation and decompilation projects, driver layers and protocol bridges: the software that runs games and hardware features on platforms they were not made for. PS5 software on PC, Switch games on iPhone, SteamOS on Android, NVIDIA cards on macOS, CarPlay on Android head units, AirDrop on non-Apple devices.</p>
+    <p>It is for players following a port, journalists and creators covering one, and contributors choosing a project to join.</p>
+
+    <h2 id="numbers">How the numbers work</h2>
+    <ul>
+      <li><strong>Stars, forks, license, language, dates</strong> come from the official GitHub REST API. The catalogue is a dated snapshot; the date is shown at the top of the home page.</li>
+      <li><strong>Stars per day</strong> is stars at the snapshot divided by days since the repo was created. It flatters young repos with a burst of attention, which is why every project page shows the commits too.</li>
+      <li><strong>Last commit and last release</strong> are fetched live from GitHub when you open a project page. GitHub allows about 60 of these requests an hour per visitor; past that, the page falls back to the snapshot and says so.</li>
+      <li><strong>Claims</strong> are quoted from the project's own description, README or release notes, each with the date it was read and a link to the source. PortWatch does not rate claims. It shows them beside the evidence.</li>
+      <li><strong>Fork status</strong> (which repo is a registered fork of which, and how many commits ahead or behind) is asked of GitHub's compare API when you press "Check live" on the fork map or open a project page.</li>
+    </ul>
+
+    <h2 id="rules">The listing rules</h2>
+    <p>These keep PortWatch lawful, and every submitter affirms them.</p>
+    <ol class="rules">
+      <li>The repo is public on GitHub.</li>
+      <li>It has an OSI-approved license or another clear license file. Repos with no license can be listed only when they are discussed widely enough to need a neutral record, and are marked "No license file".</li>
+      <li>It bundles no game data, firmware, BIOS files, decryption keys or copyrighted assets, and does not link to places that host them.</li>
+      <li>Game projects work only with a copy the user legitimately owns. Each listing carries a badge saying so.</li>
+      <li>PortWatch links to repos and quotes metadata through the GitHub API. It hosts no code, binaries, firmware or game files, and never mirrors a repo.</li>
+    </ol>
+
+    <h3 id="badges">The own-copy badge</h3>
+    <ul>
+      <li><strong>Own copy required, stated by the project</strong>: the project itself says you need your own copy.</li>
+      <li><strong>Own copy required (PortWatch rule)</strong>: the project runs games or software you must supply. We apply the rule even when the repo does not spell it out.</li>
+      <li><strong>No game files involved</strong>: drivers, bridges, installers and trackers.</li>
+      <li><strong>Not a game project</strong>: repos kept only so they are not mistaken for something else, such as other projects called PortWatch.</li>
+    </ul>
+
+    <h2 id="moderation">Submissions and moderation</h2>
+    <p>Anyone can <a href="submit.html">submit a repo</a>. The form checks in your browser, through GitHub's API, that the repo is public, what license it declares, and whether its file list contains anything that looks like game images or key files. The results go into a GitHub issue on the <a class="ext" href="https://github.com/dudemurphytronnn/portwatch">PortWatch repository</a>, where a moderator reviews it in public. Nothing is listed without that review.</p>
+
+    <h3 id="fork-notes">Fork notes</h3>
+    <p>The plain-language notes on what each fork changes are community-edited. Suggest an edit from any family on the fork map; it opens an issue, a moderator merges it, and the note's revision history on the site records the date and what changed.</p>
+
+    <h2 id="digest">RSS and the weekly digest</h2>
+    <p>The <a href="feed.xml">RSS feed</a> lists every tracked project with its stars-per-day figure, and updates with each snapshot. The weekly email digest carries the same "fastest rising" list. Until the mailing list opens, any RSS-to-email service will deliver the feed to your inbox on a weekly schedule.</p>
+
+    <h2 id="takedown">Takedown and DMCA contact</h2>
+    <div class="callout">
+      <p>If you believe a listing links to infringing material, or that a listed project ships copyrighted assets or keys, open a takedown issue:</p>
+      <p><a class="btn" href="https://github.com/dudemurphytronnn/portwatch/issues/new?labels=takedown&amp;title=Takedown%20request%3A%20">Send a takedown request</a></p>
+      <p>Say which listing, what the problem is, and your relationship to the rights involved. If your notice contains personal details you do not want public, open the issue with only the listing name and ask for a private channel; a maintainer will reply on the issue.</p>
+    </div>
+    <p>Listings named in a credible notice are hidden while they are reviewed. PortWatch hosts none of the code it lists, so removing a listing does not remove the repo. Notices about the repository itself belong with GitHub under its <a class="ext" href="https://docs.github.com/en/site-policy/content-removal-policies/dmca-takedown-policy">DMCA takedown policy</a>.</p>
+
+    <h2 id="privacy">Privacy</h2>
+    <p>No accounts, cookies or analytics. Pages that show live numbers call <code>api.github.com</code> directly from your browser, so GitHub sees those requests. Answers are kept in your browser's session storage to save your rate limit, and cleared when you close the tab.</p>
+
+    <h2 id="affiliation">Not affiliated</h2>
+    <p>PortWatch is independent. It is not affiliated with, endorsed by or speaking for any project it lists, or with Sony, Nintendo, Apple, Valve, NVIDIA, Blizzard, GitHub or any other company named on the site. Product names belong to their owners and are used only to describe what a project is compatible with.</p>
+  </article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>PortWatch is not affiliated with any project listed here, or with Sony, Nintendo, Apple, Valve, NVIDIA or Blizzard. It links to public repos and quotes their metadata from the GitHub API. It hosts no code, binaries, firmware, keys or game files. <a href="about.html#takedown">Takedown and DMCA contact</a>.</p>
+    <ul>
+      <li><a href="index.html">Catalogue</a></li>
+      <li><a href="submit.html">Submit a repo</a></li>
+      <li><a href="feed.xml">RSS</a></li>
+      <li><a href="data.json">Data</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

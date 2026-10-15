@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PortWatch: emulators and compatibility layers, checked against their commits</title>
+<meta name="description" content="A live catalogue of open-source compatibility layers, emulators and recompilation projects: stars per day, last commit, last release, license, fork map and the project's own claims, all from public GitHub data.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PortWatch">
+<meta property="og:title" content="PortWatch: ported, or just posted?">
+<meta property="og:description" content="Check viral porting claims against what the repos have actually shipped. Stars per day, releases, licenses and which fork is which.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f6f3ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c2029" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="PortWatch" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" href="data.json" as="fetch" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"PortWatch","description":"A tracker for open-source compatibility layers, emulators and recompilation projects, built from public GitHub metadata.","inLanguage":"en"}
+</script>
+<script src="app.js" defer></script>
+</head>
+<body data-page="index">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="PortWatch home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="6" fill="currentColor"/><path d="M7.5 10.5h7v11h-7z" fill="none" style="stroke:var(--paper)" stroke-width="2"/><path d="M14.5 16h10m-4-4 4 4-4 4" style="stroke:var(--signal)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PortWatch
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#rising">Rising</a></li>
+        <li><a href="#catalogue">Catalogue</a></li>
+        <li><a href="#forks">Fork map</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="nav-cta" href="submit.html">Submit a repo</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <section class="lede" aria-labelledby="lede-title">
+      <h1 id="lede-title">Ported, or just <em>posted?</em></h1>
+      <p>PortWatch tracks emulators, compatibility layers and recompilation projects by what their repos show: stars per day, commits, releases, licenses and which fork is which. Read the claim, then read the commits.</p>
+      <p class="manifest-line" id="manifest-line" aria-live="polite"><span>Loading the catalogue…</span></p>
+    </section>
+  </div>
+
+  <section class="section" id="rising" aria-labelledby="rising-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="rising-title"><span class="tag">01</span>Fastest rising this week</h2>
+        <p>Projects pushed to in the last 7 days, ranked by average stars per day since the repo was created.</p>
+      </div>
+      <div class="rising-grid">
+        <div>
+          <ol class="rising" id="rising-list"><li class="skeleton" aria-hidden="true"></li></ol>
+          <div class="feeds">
+            <a href="feed.xml"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="3" cy="13" r="2" fill="currentColor"/><path d="M1 7a8 8 0 0 1 8 8M1 2a13 13 0 0 1 13 13" fill="none" stroke="currentColor" stroke-width="2"/></svg>RSS feed</a>
+            <a href="about.html#digest">Email digest</a>
+          </div>
+        </div>
+        <aside class="aside-note" aria-labelledby="method-title">
+          <h3 id="method-title">How to read the number</h3>
+          <p>A young repo with a burst of attention scores high even if it has shipped little. Open the project page to see the commits and releases behind it.</p>
+          <p>Star counts are a snapshot from GitHub's API. Project pages fetch fresh numbers when you open them.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="catalogue" aria-labelledby="cat-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="cat-title"><span class="tag">02</span>Catalogue</h2>
+        <p>Every listed project links to a public repo. Nothing here is hosted by PortWatch.</p>
+      </div>
+      <noscript>
+        <p class="noscript">The catalogue needs JavaScript to filter and sort. Without it you can read the raw list in <a href="data.json">data.json</a> or follow the <a href="feed.xml">RSS feed</a>.</p>
+      </noscript>
+      <div class="catalogue-layout">
+        <form class="filters" id="filters" role="search" aria-label="Filter the catalogue">
+          <div class="field search-field">
+            <label for="q">Search</label>
+            <input type="search" id="q" name="q" placeholder="AnyPS5, Metal, Waydroid…" autocomplete="off" spellcheck="false">
+          </div>
+          <fieldset>
+            <legend>Category</legend>
+            <div class="chips" id="cat-chips"></div>
+          </fieldset>
+          <div class="row-2">
+            <div class="field">
+              <label for="lang">Language</label>
+              <select id="lang" name="lang"><option value="">All languages</option></select>
+            </div>
+            <div class="field">
+              <label for="lic">License</label>
+              <select id="lic" name="lic"><option value="">All licenses</option></select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="sort">Sort by</label>
+            <select id="sort" name="sort">
+              <option value="stars">Most stars</option>
+              <option value="rate">Stars per day</option>
+              <option value="newest">Newest repo</option>
+              <option value="pushed">Recently updated</option>
+              <option value="name">Name (A to Z)</option>
+            </select>
+          </div>
+          <label class="toggle"><input type="checkbox" id="twins" name="twins"> <span id="twins-label">Show name twins and search noise</span></label>
+          <div><button type="reset" class="btn ghost small" id="reset">Clear filters</button></div>
+        </form>
+
+        <div>
+          <div class="result-bar">
+            <p class="result-count" id="result-count" aria-live="polite">Loading…</p>
+          </div>
+          <ul class="ledger" id="results" aria-label="Projects"><li class="skeleton" aria-hidden="true"></li><li class="skeleton" aria-hidden="true"></li></ul>
+          <div class="empty" id="empty" hidden>
+            <h3>Nothing matches those filters</h3>
+            <p id="empty-why">Try fewer categories, or clear the search.</p>
+            <p><button type="button" class="btn ghost small" id="empty-reset">Clear filters</button> <a href="submit.html" style="margin-left:12px">Know a repo we're missing?</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="forks" aria-labelledby="forks-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="forks-title"><span class="tag">03</span>Fork map</h2>
+        <p>Repos that share a name or a codebase, with what differs in plain words. "Check live" asks GitHub which ones are registered forks and how far ahead or behind they are.</p>
+      </div>
+      <div class="families" id="family-list"><div class="skeleton" aria-hidden="true"></div></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>PortWatch is not affiliated with any project listed here, or with Sony, Nintendo, Apple, Valve, NVIDIA or Blizzard. It links to public repos and quotes their metadata from the GitHub API. It hosts no code, binaries, firmware, keys or game files. <a href="about.html#takedown">Takedown and DMCA contact</a>.</p>
+    <ul>
+      <li><a href="about.html">About and rules</a></li>
+      <li><a href="submit.html">Submit a repo</a></li>
+      <li><a href="feed.xml">RSS</a></li>
+      <li><a href="data.json">Data</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

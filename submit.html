@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Submit a repo · PortWatch</title>
+<meta name="description" content="Suggest an open-source emulator, compatibility layer or recompilation project for PortWatch. Your browser checks the repo, then a moderator reviews it in a public GitHub issue.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="PortWatch">
+<meta property="og:title" content="Submit a repo to PortWatch">
+<meta property="og:description" content="Public repos with a clear license and no bundled game data. Checked automatically, approved by a moderator in public.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="submit">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="PortWatch home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="6" fill="currentColor"/><path d="M7.5 10.5h7v11h-7z" fill="none" style="stroke:var(--paper)" stroke-width="2"/><path d="M14.5 16h10m-4-4 4 4-4 4" style="stroke:var(--signal)" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      PortWatch
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html#rising">Rising</a></li>
+        <li><a href="index.html#catalogue">Catalogue</a></li>
+        <li><a href="index.html#forks">Fork map</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="nav-cta" href="submit.html" aria-current="page">Submit a repo</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="prose" style="padding-bottom:24px">
+      <h1>Submit a repo</h1>
+      <p class="intro">Sending this form opens a pre-filled issue on GitHub in a new tab. You post it from your own GitHub account, and a moderator reviews it there in public. Nothing is listed until it's approved.</p>
+    </div>
+
+    <div class="form-layout">
+      <form class="form" id="submit-form" novalidate>
+        <div class="field">
+          <label for="f-url">Repository URL <span class="req" aria-hidden="true">*</span></label>
+          <input type="url" id="f-url" name="url" required inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://github.com/owner/repo" aria-describedby="f-url-hint f-url-err">
+          <p class="hint" id="f-url-hint">Public GitHub repos only. Checks run as soon as you paste it.</p>
+          <p class="err" id="f-url-err"></p>
+        </div>
+        <div class="field">
+          <label for="f-name">Project name <span class="req" aria-hidden="true">*</span></label>
+          <input type="text" id="f-name" name="name" required maxlength="80" autocomplete="off" aria-describedby="f-name-err">
+          <p class="err" id="f-name-err"></p>
+        </div>
+        <div class="field">
+          <label for="f-cat">Category <span class="req" aria-hidden="true">*</span></label>
+          <select id="f-cat" name="category" required aria-describedby="f-cat-err">
+            <option value="">Choose one</option>
+            <option>PS5 → PC</option>
+            <option>Switch → iOS</option>
+            <option>SteamOS on ARM</option>
+            <option>Android on SteamOS</option>
+            <option>Decomp / recomp</option>
+            <option>Driver layers</option>
+            <option>Protocol bridges</option>
+            <option>Trackers &amp; tools</option>
+            <option>Something else</option>
+          </select>
+          <p class="err" id="f-cat-err"></p>
+        </div>
+        <div class="field">
+          <label for="f-desc">What it does <span class="req" aria-hidden="true">*</span></label>
+          <textarea id="f-desc" name="description" required maxlength="400" aria-describedby="f-desc-hint f-desc-err"></textarea>
+          <p class="hint" id="f-desc-hint">One or two plain sentences. If you quote a progress claim, link where the project made it.</p>
+          <p class="err" id="f-desc-err"></p>
+        </div>
+        <div class="field">
+          <label for="f-fork">If it's a fork: what does it change?</label>
+          <textarea id="f-fork" name="fork" maxlength="400" style="min-height:80px" aria-describedby="f-fork-hint"></textarea>
+          <p class="hint" id="f-fork-hint">Optional. This becomes the first version of its fork note.</p>
+        </div>
+
+        <div class="affirm">
+          <input type="checkbox" id="f-rules" name="rules" required aria-describedby="f-rules-err">
+          <label for="f-rules">I confirm this repo follows the <a href="about.html#rules">listing rules</a>:
+            <ul>
+              <li>it is public, with an OSI or otherwise clear license;</li>
+              <li>it bundles no game data, firmware, BIOS, decryption keys or copyrighted assets, and links to none;</li>
+              <li>it works only with copies the user legitimately owns.</li>
+            </ul>
+          </label>
+          <p class="err" id="f-rules-err" style="grid-column:2"></p>
+        </div>
+
+        <div>
+          <button type="submit" class="btn">Open the GitHub issue</button>
+          <p class="hint" style="margin-top:8px">Opens github.com in a new tab. You'll need a GitHub account to post it.</p>
+        </div>
+        <div class="status" id="f-status" role="status" aria-live="polite"></div>
+        <noscript><p class="noscript">This form needs JavaScript to build the issue. Without it, <a href="https://github.com/dudemurphytronnn/portwatch/issues/new">open an issue directly</a> with the repo URL, a category, a description, and a line confirming the listing rules.</p></noscript>
+      </form>
+
+      <aside aria-labelledby="checks-title">
+        <h2 id="checks-title" class="p-block" style="margin:0 0 6px;font-size:1.05rem;text-transform:uppercase;font-weight:800">Automatic checks</h2>
+        <p class="hint" style="margin-bottom:12px">Run in your browser against GitHub's public API. They help the moderator; they don't approve anything.</p>
+        <ul class="checks" id="checks" aria-live="polite">
+          <li><span class="ico" aria-hidden="true">·</span><span>Paste a repo URL to start.</span></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>PortWatch is not affiliated with any project listed here, or with Sony, Nintendo, Apple, Valve, NVIDIA or Blizzard. It links to public repos and quotes their metadata from the GitHub API. It hosts no code, binaries, firmware, keys or game files. <a href="about.html#takedown">Takedown and DMCA contact</a>.</p>
+    <ul>
+      <li><a href="index.html">Catalogue</a></li>
+      <li><a href="about.html">About and rules</a></li>
+      <li><a href="feed.xml">RSS</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

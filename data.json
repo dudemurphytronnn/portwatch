@@ -1,1 +1,1647 @@
-{"snapshot":"2026-10-15","source":"GitHub REST API (public metadata only)","starsPerDayMethod":"Stars at snapshot divided by days since the repo was created.","categories":[{"id":"ps5-pc","label":"PS5 → PC","blurb":"Running PS5 software on desktop operating systems."},{"id":"switch-ios","label":"Switch → iOS","blurb":"Switch games, from your own copy, on iPhone, iPad and Mac."},{"id":"steamos-arm","label":"SteamOS on ARM","blurb":"SteamOS or its experience on Android and ARM devices."},{"id":"android-steamos","label":"Android on SteamOS","blurb":"The reverse trip: Android apps on a Steam Deck."},{"id":"recomp","label":"Decomp / recomp","blurb":"Executables translated or recompiled to native code."},{"id":"drivers","label":"Driver layers","blurb":"Graphics drivers and rendering layers for unsupported hardware."},{"id":"bridges","label":"Protocol bridges","blurb":"CarPlay, AirDrop and other closed protocols on open hardware."},{"id":"tools","label":"Trackers & tools","blurb":"Installers, trackers and helpers around the projects above."},{"id":"unrelated","label":"Name twins & noise","blurb":"Repos that share the PortWatch name or matched a search, but are not compatibility projects."}],"projects":[{"name":"boykopovar/AnyPS5","url":"https://github.com/boykopovar/AnyPS5","description":"Tool for automatic PS5 executables porting to Linux and Windows","stars":38466,"forks":3422,"language":"C++","license":"GPL-2.0","created":"2026-08-03","updated":"2026-10-15","topics":["anyps5","dynamic-library","game-porting","ps5","ps5-tools","spir-v"],"homepage":"https://boykopovar.github.io/AnyPS5/","summary":"Ports PS5 executables so they run on Linux and Windows, with automatic translation of graphics code to SPIR-V.","categories":["ps5-pc","recomp"],"platforms":["Linux","Windows"],"byog":{"level":"required","label":"Own copy required (PortWatch rule)"},"family":null,"claims":[{"date":"2026-10-15","text":"Automatic PS5 executables porting to Linux and Windows","source":"Repo description, via GitHub API","url":"https://github.com/boykopovar/AnyPS5"}]},{"name":"shihabal3amri/DiPlay","url":"https://github.com/shihabal3amri/DiPlay","description":"Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.","stars":10908,"forks":1382,"language":"Kotlin","license":"GPL-3.0","created":"2026-09-24","updated":"2026-10-15","topics":[],"homepage":"https://shihabal3amri.github.io/DiPlay/","summary":"A CarPlay receiver that runs on compatible Android car head units.","categories":["bridges"],"platforms":["Android head units"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[{"date":"2026-10-15","text":"Wired and wireless public preview","source":"Repo description, via GitHub API","url":"https://github.com/shihabal3amri/DiPlay"}]},{"name":"Droid-Deck/DroidDeck","url":"https://github.com/Droid-Deck/DroidDeck","description":"DroidDeck brings the SteamOS experience to Android","stars":8904,"forks":427,"language":"Kotlin","license":"GPL-3.0","created":"2026-09-24","updated":"2026-10-15","topics":[],"homepage":null,"summary":"Brings the SteamOS experience to Android devices.","categories":["steamos-arm"],"platforms":["Android"],"byog":{"level":"required","label":"Own copy required (PortWatch rule)"},"family":null,"claims":[{"date":"2026-10-15","text":"Brings the SteamOS experience to Android","source":"Repo description, via GitHub API","url":"https://github.com/Droid-Deck/DroidDeck"}]},{"name":"nullmoth/nvidia-macos-driver","url":"https://github.com/nullmoth/nvidia-macos-driver","description":"Metal driver for NVIDIA GeForce cards on macOS Sequoia","stars":3125,"forks":299,"language":"Rust","license":"NOASSERTION","created":"2026-10-07","updated":"2026-10-15","topics":["kext","macos","metal","nvidia","opencore","vulkan"],"homepage":"https://nullmothsystems.com","summary":"A Metal driver that lets NVIDIA GeForce cards work on macOS Sequoia.","categories":["drivers"],"platforms":["macOS Sequoia"],"byog":{"level":"none","label":"No game files involved"},"family":"nvidia-macos","claims":[{"date":"2026-10-15","text":"Metal driver for NVIDIA GeForce cards on macOS Sequoia","source":"Repo description, via GitHub API","url":"https://github.com/nullmoth/nvidia-macos-driver"}]},{"name":"jhaizhou-ops/d2r-mobile","url":"https://github.com/jhaizhou-ops/d2r-mobile","description":"Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes.","stars":3048,"forks":932,"language":"C","license":"MIT","created":"2026-10-12","updated":"2026-10-15","topics":["compatibility-layer","diablo-2-resurrected","diablo2","game-port","ios","ipad"],"homepage":null,"summary":"Runs your own Switch copy of Diablo II: Resurrected natively on iPhone, iPad and Mac.","categories":["switch-ios","recomp"],"platforms":["iOS","iPadOS","macOS"],"byog":{"level":"stated","label":"Own copy required, stated by the project"},"family":"d2r-mobile","claims":[{"date":"2026-10-15","text":"Runs your own Switch copy natively on iPhone, iPad and Mac","source":"Repo description, via GitHub API","url":"https://github.com/jhaizhou-ops/d2r-mobile"},{"date":"2026-10-15","text":"Full touch controls, 60 fps, new endgame modes","source":"Repo description, via GitHub API","url":"https://github.com/jhaizhou-ops/d2r-mobile"}]},{"name":"t4t5/omdrop-owl","url":"https://github.com/t4t5/omdrop-owl","description":"airdrop for non-apple devices","stars":2734,"forks":213,"language":"Shell","license":null,"created":"2026-10-08","updated":"2026-10-14","topics":["airdrop","awdl","omarchy","owl"],"homepage":null,"summary":"AirDrop for non-Apple devices, built on the open AWDL implementation OWL.","categories":["bridges"],"platforms":["Non-Apple devices"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"Loopayeh/pkg-sender","url":"https://github.com/Loopayeh/pkg-sender","description":"PKG Sender — install PS4/PS5 packages over LAN. Pick games on PC, auto-find the console, queue and install. No USB, no manual IP.","stars":160,"forks":22,"language":"C#","license":"MIT","created":"2026-09-18","updated":"2026-10-05","topics":["avalonia","dotnet","homebrew","jailbreak","pkg","ps4"],"homepage":"https://loopayeh.github.io/","summary":"Installs PS4 and PS5 packages over the local network from a PC, with console auto-discovery.","categories":["tools"],"platforms":["PC (.NET / Avalonia)","PS4","PS5"],"byog":{"level":"required","label":"Own copy required (PortWatch rule)"},"family":null,"claims":[{"date":"2026-10-15","text":"No USB, no manual IP","source":"Repo description, via GitHub API","url":"https://github.com/Loopayeh/pkg-sender"}]},{"name":"Room-8-Group-LTD/REI","url":"https://github.com/Room-8-Group-LTD/REI","description":"REI is a cross-platform rendering framework and a comprehensive graphics API. Adaptable to various platforms, including PC, consoles, and mobile. It simplifies porting, especially for games developed on custom or proprie","stars":72,"forks":3,"language":"C++","license":"Apache-2.0","created":"2024-01-23","updated":"2024-01-29","topics":["android","directx","directx12","hlsl","nintendo-switch","ps4"],"homepage":"https://dragonslake.com/","summary":"A cross-platform rendering framework and graphics API meant to make porting games between PC, consoles and mobile simpler.","categories":["drivers"],"platforms":["PC","Consoles","Mobile"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"d2r-mobile/d2r-mobile","url":"https://github.com/d2r-mobile/d2r-mobile","description":"Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy. 60 fps, ~10 h battery in power saver mode, 1-tap Runewords, a 100-level Greater Rift. Build it with one sentence to Claude Code or Code","stars":65,"forks":16,"language":"C","license":"MIT","created":"2026-10-12","updated":"2026-10-15","topics":["agent-skills","claude-code","codex","compatibility-layer","diablo","diablo-2-resurrected"],"homepage":null,"summary":"Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy.","categories":["switch-ios","recomp"],"platforms":["iOS","iPadOS"],"byog":{"level":"stated","label":"Own copy required, stated by the project"},"family":"d2r-mobile","claims":[{"date":"2026-10-15","text":"60 fps, ~10 h battery in power saver mode","source":"Repo description, via GitHub API","url":"https://github.com/d2r-mobile/d2r-mobile"},{"date":"2026-10-15","text":"1-tap Runewords, a 100-level Greater Rift","source":"Repo description, via GitHub API","url":"https://github.com/d2r-mobile/d2r-mobile"}]},{"name":"ZerubbabelT/portwatch","url":"https://github.com/ZerubbabelT/portwatch","description":"","stars":46,"forks":4,"language":"QML","license":"MIT","created":"2026-08-25","updated":"2026-09-23","topics":[],"homepage":null,"summary":"Shares our name. No description on GitHub; a macOS port by another author describes it as a port monitor.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"Lowena-Cove/Piston","url":"https://github.com/Lowena-Cove/Piston","description":"A project with the goal of running SteamOS as an app on Android devices.","stars":8,"forks":0,"language":"Rust","license":null,"created":"2024-12-14","updated":"2025-10-22","topics":["android-gaming-pc","emulation","linux-on-android","steam","steamos","termux"],"homepage":"https://www.reddit.com/r/SteamOS_Android/","summary":"Aims to run SteamOS as an app on Android devices.","categories":["steamos-arm"],"platforms":["Android"],"byog":{"level":"required","label":"Own copy required (PortWatch rule)"},"family":null,"claims":[{"date":"2026-10-15","text":"Goal: running SteamOS as an app on Android devices","source":"Repo description, via GitHub API","url":"https://github.com/Lowena-Cove/Piston"}]},{"name":"serome111/PortWatch","url":"https://github.com/serome111/PortWatch","description":"Local web panel to visualize and analyze network activity. Features simple/technical views, risk scoring, and zero external data leaks.","stars":5,"forks":0,"language":"JavaScript","license":"MIT","created":"2025-09-11","updated":"2025-11-25","topics":["security","security-tools"],"homepage":null,"summary":"Shares our name. A local web panel for watching network activity.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"tech2mar/SteamOS-Waydroid-Installer","url":"https://github.com/tech2mar/SteamOS-Waydroid-Installer","description":"Script to easily install / uninstall Android via Waydroid on the Steam Deck running on SteamOS.","stars":4,"forks":71,"language":null,"license":null,"created":"2023-12-13","updated":"2023-12-07","topics":[],"homepage":null,"summary":"A script that installs or removes Android (via Waydroid) on a Steam Deck running SteamOS.","categories":["android-steamos"],"platforms":["Steam Deck (SteamOS)"],"byog":{"level":"none","label":"No game files involved"},"family":"waydroid-installer","claims":[]},{"name":"LWHikarik/port_watcher","url":"https://github.com/LWHikarik/port_watcher","description":"Utility to spy on IMF portwatch API in live mode","stars":4,"forks":0,"language":"Python","license":"GPL-3.0","created":"2026-05-12","updated":"2026-05-12","topics":[],"homepage":null,"summary":"Not a game project. Reads the IMF PortWatch shipping API.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"DongquanZheng/event-informed-port-disruption-modeling","url":"https://github.com/DongquanZheng/event-informed-port-disruption-modeling","description":"A research-oriented MVP for modeling abnormal port activity using operational PortWatch data and multiscale NLP-derived GDELT event signals.","stars":4,"forks":1,"language":"Python","license":null,"created":"2026-05-01","updated":"2026-05-01","topics":[],"homepage":null,"summary":"Not a game project. Research code modelling disruption at shipping ports.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":null,"claims":[]},{"name":"kingsleydon/abl-dualboot","url":"https://github.com/kingsleydon/abl-dualboot","description":"ABL Dual Boot: one-tap Android ⇄ Linux switching on handhelds with the ROCKNIX bootloader. Android app + Quick Settings tile, Decky plugin, Linux script.","stars":3,"forks":0,"language":"Kotlin","license":"MIT","created":"2026-10-09","updated":"2026-10-09","topics":["android","apatch","armada","ayn-odin","decky-plugin","dual-boot"],"homepage":"https://github.com/kingsleydon/abl-dualboot/releases/latest","summary":"One-tap switching between Android and Linux on handhelds that use the ROCKNIX bootloader.","categories":["tools"],"platforms":["ARM handhelds (Android, Linux)"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"WhySooooFurious/nvidia-macos-driver","url":"https://github.com/WhySooooFurious/nvidia-macos-driver","description":"Metal driver for NVIDIA GPUs on macOS (Sequoia / Tahoe). Includes the Tahoe (macOS 26) icon + NVAccel fixes and the ditto install/uninstall backup fix from upstream PR #59.","stars":3,"forks":0,"language":"Rust","license":"NOASSERTION","created":"2026-10-11","updated":"2026-10-11","topics":[],"homepage":"https://github.com/nullmoth/nvidia-macos-driver","summary":"A copy of the NullMoth NVIDIA driver that adds macOS Tahoe fixes and an install/uninstall backup fix.","categories":["drivers"],"platforms":["macOS Sequoia","macOS Tahoe"],"byog":{"level":"none","label":"No game files involved"},"family":"nvidia-macos","claims":[{"date":"2026-10-15","text":"Includes the Tahoe (macOS 26) icon + NVAccel fixes","source":"Repo description, via GitHub API","url":"https://github.com/WhySooooFurious/nvidia-macos-driver"}]},{"name":"steven-ahfu/Portwatch","url":"https://github.com/steven-ahfu/Portwatch","description":"Portainer client for Android — containers and stacks, live CPU/memory stats, threshold notifications, Material 3 Expressive UI. Fork of the original AndroTrainer.","stars":3,"forks":0,"language":"Kotlin","license":"GPL-3.0","created":"2026-07-15","updated":"2026-09-03","topics":["android","foss","material-3-expressive","portainer"],"homepage":null,"summary":"Shares our name. A Portainer client for Android.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"dedsecrattle/PortWatch","url":"https://github.com/dedsecrattle/PortWatch","description":"PortWatch - A cross-platform terminal user interface (TUI) application for real-time network port monitoring and process management.","stars":3,"forks":1,"language":"Rust","license":"Apache-2.0","created":"2026-04-03","updated":"2026-04-03","topics":[],"homepage":null,"summary":"Shares our name. A terminal app for monitoring network ports.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"Marsh-Edge/PortWatcher","url":"https://github.com/Marsh-Edge/PortWatcher","description":"A lightweight Python tool for scanning and monitoring network ports. It helps identify open ports and inspect network services for learning and security purposes.","stars":3,"forks":0,"language":"Python","license":"MIT","created":"2026-02-17","updated":"2026-10-11","topics":["cli","cybersecurity","network-security","networking","port-scanner","python"],"homepage":null,"summary":"Not a game project. A Python network port scanner.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":null,"claims":[]},{"name":"AlessandraSozzi/portwatch-monitor","url":"https://github.com/AlessandraSozzi/portwatch-monitor","description":"","stars":2,"forks":2,"language":"HTML","license":null,"created":"2024-01-20","updated":"2026-10-13","topics":[],"homepage":null,"summary":"Shares our name. No description on GitHub.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"zombocoder/PortwatchZ","url":"https://github.com/zombocoder/PortwatchZ","description":"A fast, cross-platform network port monitoring library and CLI tool written in Zig. PortWatchZ tracks listening ports and established connections, detects changes, and can send alerts via webhooks.","stars":2,"forks":0,"language":"Zig","license":"NOASSERTION","created":"2025-09-23","updated":"2025-09-23","topics":[],"homepage":null,"summary":"Shares our name. A network port monitoring library written in Zig.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"dingran/portwatch","url":"https://github.com/dingran/portwatch","description":"","stars":2,"forks":1,"language":"HTML","license":null,"created":"2025-11-03","updated":"2026-06-20","topics":[],"homepage":null,"summary":"Shares our name. No description on GitHub.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"Cyberking99/portwatch","url":"https://github.com/Cyberking99/portwatch","description":"A lightweight port viewer and process killer.","stars":2,"forks":0,"language":"Go","license":null,"created":"2026-04-04","updated":"2026-06-04","topics":[],"homepage":null,"summary":"Shares our name. A port viewer and process killer.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"4NK1T/PortWatch","url":"https://github.com/4NK1T/PortWatch","description":"","stars":2,"forks":0,"language":"Python","license":null,"created":"2024-11-02","updated":"2024-11-02","topics":[],"homepage":null,"summary":"Shares our name. No description on GitHub.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"hatt-io/portwatch-for-MacOS","url":"https://github.com/hatt-io/portwatch-for-MacOS","description":"Portwatch by ZerubbabelT but for MacOS - and with a CLI tool","stars":2,"forks":0,"language":"Swift","license":"MIT","created":"2026-08-27","updated":"2026-08-27","topics":[],"homepage":null,"summary":"Shares our name. A macOS version of ZerubbabelT/portwatch with a CLI.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"offby1n/PortWatch","url":"https://github.com/offby1n/PortWatch","description":"A Python CLI TCP port scanner.","stars":2,"forks":0,"language":"Python","license":"MIT","created":"2026-08-29","updated":"2026-08-29","topics":["cli","networking","portscanner","python","python3","security"],"homepage":null,"summary":"Shares our name. A Python TCP port scanner.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"pipeworx-io/mcp-imf-portwatch","url":"https://github.com/pipeworx-io/mcp-imf-portwatch","description":"IMF PortWatch MCP — global maritime trade & chokepoint signals (free, no auth)","stars":2,"forks":0,"language":"TypeScript","license":"MIT","created":"2026-06-26","updated":"2026-09-26","topics":["imf-portwatch","mcp","mcp-server","model-context-protocol","pipeworx"],"homepage":null,"summary":"Not a game project. An MCP server for IMF PortWatch maritime trade data.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":"portwatch-name","claims":[]},{"name":"ahmedalqamzi/netflix-waydroid-steamos","url":"https://github.com/ahmedalqamzi/netflix-waydroid-steamos","description":"Native Netflix Android launcher for Waydroid on SteamOS","stars":1,"forks":0,"language":"Shell","license":null,"created":"2026-07-21","updated":"2026-07-21","topics":[],"homepage":null,"summary":"A launcher that opens the Android Netflix app through Waydroid on SteamOS.","categories":["android-steamos"],"platforms":["SteamOS"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"mprinsloog-droid/glitches-for-games-ps5-and-pc-only-","url":"https://github.com/mprinsloog-droid/glitches-for-games-ps5-and-pc-only-","description":"","stars":0,"forks":0,"language":null,"license":null,"created":"2026-05-23","updated":"2026-05-23","topics":[],"homepage":null,"summary":"Not a compatibility project. An empty repo that matched a \"PS5\" search.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":null,"claims":[]},{"name":"alan-r-henry/ps5-emu-tracker","url":"https://github.com/alan-r-henry/ps5-emu-tracker","description":"Daily tracker of PS5 emulation on PC: AnyPS5, KytyPS5 and SharpEmu progress, playable PS5 games and GTA 6 emulation readiness.","stars":0,"forks":0,"language":"TypeScript","license":null,"created":"2026-10-13","updated":"2026-10-15","topics":[],"homepage":"https://alan-r-henry.github.io/ps5-emu-tracker/","summary":"A daily tracker of PS5 emulation progress on PC across AnyPS5, KytyPS5 and SharpEmu.","categories":["tools","ps5-pc"],"platforms":["Web"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"channelofgaming2004-tech/-Tiktac","url":"https://github.com/channelofgaming2004-tech/-Tiktac","description":"Kakashi is play online games and story games and share it on this channel  Have fun and watch as you like you will love this channel PC and PS5 Gamer (Otaku)","stars":0,"forks":0,"language":"CSS","license":null,"created":"2026-06-09","updated":"2026-06-09","topics":[],"homepage":null,"summary":"Not a compatibility project. A gaming channel page that matched a \"PS5\" search.","categories":["unrelated"],"platforms":[],"byog":{"level":"na","label":"Not a game project"},"family":null,"claims":[]},{"name":"doctorqueue/d2r-mobile","url":"https://github.com/doctorqueue/d2r-mobile","description":"Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy. 60 fps, ~10 h battery in power saver mode, 1-tap Runewords, a 100-level Greater Rift. Build it with one sentence to Claude Code or Code","stars":0,"forks":0,"language":null,"license":"MIT","created":"2026-10-12","updated":"2026-10-12","topics":[],"homepage":null,"summary":"Same description as d2r-mobile/d2r-mobile, published the same day. Diablo II: Resurrected on iPhone and iPad from your own Switch copy.","categories":["switch-ios","recomp"],"platforms":["iOS","iPadOS"],"byog":{"level":"stated","label":"Own copy required, stated by the project"},"family":"d2r-mobile","claims":[]},{"name":"lixiaolin94/d2r-mobile","url":"https://github.com/lixiaolin94/d2r-mobile","description":"Open-source iOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone and iPad — full touch controls, 60 fps, new endgame modes. Bring your o","stars":0,"forks":0,"language":null,"license":"MIT","created":"2026-10-12","updated":"2026-10-12","topics":[],"homepage":null,"summary":"An iOS compatibility layer for Diablo II: Resurrected that runs your own Switch copy on iPhone and iPad.","categories":["switch-ios","recomp"],"platforms":["iOS","iPadOS"],"byog":{"level":"stated","label":"Own copy required, stated by the project"},"family":"d2r-mobile","claims":[{"date":"2026-10-15","text":"Runs your own Switch copy natively on iPhone and iPad","source":"Repo description, via GitHub API","url":"https://github.com/lixiaolin94/d2r-mobile"}]},{"name":"theredenemy/SteamOS-Waydroid-Installer-androidtv","url":"https://github.com/theredenemy/SteamOS-Waydroid-Installer-androidtv","description":"Script to easily install / uninstall Android via Waydroid on the Steam Deck running on SteamOS.","stars":0,"forks":2,"language":"Shell","license":"GPL-3.0","created":"2025-01-09","updated":"2025-02-05","topics":[],"homepage":"https://www.youtube.com/watch?v=06T-h-jPVx8","summary":"An Android TV variant of the SteamOS Waydroid installer, with the same description as the tech2mar script.","categories":["android-steamos"],"platforms":["Steam Deck (SteamOS)"],"byog":{"level":"none","label":"No game files involved"},"family":"waydroid-installer","claims":[]},{"name":"ahmedalqamzi/x-waydroid-steamos","url":"https://github.com/ahmedalqamzi/x-waydroid-steamos","description":"X Android launcher for Waydroid on SteamOS with full controller and Siri Remote input","stars":0,"forks":0,"language":"Shell","license":null,"created":"2026-07-21","updated":"2026-07-21","topics":[],"homepage":null,"summary":"A launcher for the Android X app through Waydroid on SteamOS, with controller and Siri Remote input.","categories":["android-steamos"],"platforms":["SteamOS"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"dhlim89/ESDE-Sync-for-SteamOS","url":"https://github.com/dhlim89/ESDE-Sync-for-SteamOS","description":"ES-DE library synchronization tool for Android devices and Dropbox on SteamOS","stars":0,"forks":0,"language":"Python","license":null,"created":"2026-10-07","updated":"2026-10-08","topics":[],"homepage":null,"summary":"Syncs an ES-DE frontend library between SteamOS, Android devices and Dropbox.","categories":["tools"],"platforms":["SteamOS","Android"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"chemix444/steamdeck-waydroid-setup","url":"https://github.com/chemix444/steamdeck-waydroid-setup","description":"Reproduce a working Waydroid (Android 13) install on SteamOS / Steam Deck: AUR build, GAPPS images, libndk ARM translation, Widevine, firewall fix, Play certification.","stars":0,"forks":0,"language":"Shell","license":null,"created":"2026-08-07","updated":"2026-08-13","topics":["android","linux","steam-deck","steamos","waydroid"],"homepage":null,"summary":"Step-by-step reproduction of a working Waydroid (Android 13) install on a Steam Deck, including ARM translation.","categories":["android-steamos"],"platforms":["Steam Deck (SteamOS)"],"byog":{"level":"none","label":"No game files involved"},"family":null,"claims":[]},{"name":"joseteo/nvidia-macos-opencore","url":"https://github.com/joseteo/nvidia-macos-opencore","description":"Rust CLI that makes NVIDIA Turing GPUs work on macOS 15 Sequoia via OpenCore + the NullMoth driver — automatic OpenCore config repair, verified always-latest driver install, and OpenCore EFI generation. Validated on real","stars":0,"forks":0,"language":"Rust","license":"NOASSERTION","created":"2026-10-10","updated":"2026-10-11","topics":["driver","efi","gtx1650","hackintosh","macos","macos-sequoia"],"homepage":null,"summary":"A command-line helper that installs the NullMoth NVIDIA driver and repairs OpenCore config for Turing GPUs on macOS 15.","categories":["drivers"],"platforms":["macOS 15 Sequoia"],"byog":{"level":"none","label":"No game files involved"},"family":"nvidia-macos","claims":[{"date":"2026-10-15","text":"Makes NVIDIA Turing GPUs work on macOS 15 Sequoia via OpenCore + the NullMoth driver","source":"Repo description, via GitHub API","url":"https://github.com/joseteo/nvidia-macos-opencore"}]}],"families":[{"id":"d2r-mobile","name":"d2r-mobile","kind":"Same name, four repos","members":[{"repo":"jhaizhou-ops/d2r-mobile","role":"Most starred","note":"The only one that also names Mac as a target. The other three say iPhone and iPad."},{"repo":"d2r-mobile/d2r-mobile","role":"Org-named repo","note":"Description adds battery life, 1-tap Runewords, a Greater Rift, and building it by asking Claude Code or Codex."},{"repo":"doctorqueue/d2r-mobile","role":"Same text","note":"Word-for-word the same description as d2r-mobile/d2r-mobile, created the same day. No language detected by GitHub at snapshot."},{"repo":"lixiaolin94/d2r-mobile","role":"iOS only","note":"Same wording as jhaizhou-ops but drops Mac. No language detected by GitHub at snapshot."}],"note":"All four were created on 12 Oct 2026 under MIT and all describe running your own Switch copy of Diablo II: Resurrected on Apple devices. The snapshot does not say which is upstream. Use \"Check live\" to ask GitHub whether any of them is a registered fork.","revisions":[{"date":"2026-10-15","summary":"First note, written from the four repo descriptions."}]},{"id":"nvidia-macos","name":"nvidia-macos-driver","kind":"Upstream, one copy, one helper","members":[{"repo":"nullmoth/nvidia-macos-driver","role":"Upstream","note":"The driver itself. Targets macOS Sequoia."},{"repo":"WhySooooFurious/nvidia-macos-driver","role":"Downstream copy","note":"Its homepage points at nullmoth. Adds Tahoe (macOS 26) icon and NVAccel fixes plus the backup fix from upstream PR #59."},{"repo":"joseteo/nvidia-macos-opencore","role":"Companion tool","note":"Not a fork. A Rust CLI that installs the NullMoth driver and repairs OpenCore config for Turing cards."}],"note":"Pick nullmoth for the driver. The WhySooooFurious copy is the place to look for Tahoe support; the joseteo tool sits on top of either.","revisions":[{"date":"2026-10-15","summary":"First note, written from the three repo descriptions and the downstream homepage link."}]},{"id":"waydroid-installer","name":"SteamOS-Waydroid-Installer","kind":"Same script, two repos","members":[{"repo":"tech2mar/SteamOS-Waydroid-Installer","role":"Older repo","note":"Created Dec 2023. No license file at snapshot."},{"repo":"theredenemy/SteamOS-Waydroid-Installer-androidtv","role":"Android TV variant","note":"Same description, created Jan 2025, and carries GPL-3.0."}],"note":"The two descriptions are identical; the newer repo adds \"androidtv\" to its name and a license. The snapshot does not show what else differs.","revisions":[{"date":"2026-10-15","summary":"First note, written from the two repo descriptions and license fields."}]},{"id":"portwatch-name","name":"PortWatch (the name)","kind":"Not us","members":[{"repo":"ZerubbabelT/portwatch","role":"Port monitor","note":"The macOS port below credits it."},{"repo":"hatt-io/portwatch-for-MacOS","role":"macOS port of it","note":"Describes itself as ZerubbabelT's Portwatch for macOS, with a CLI."},{"repo":"serome111/PortWatch","role":"Network panel","note":""},{"repo":"dedsecrattle/PortWatch","role":"Terminal monitor","note":""},{"repo":"zombocoder/PortwatchZ","role":"Zig library","note":""},{"repo":"offby1n/PortWatch","role":"Port scanner","note":""},{"repo":"Cyberking99/portwatch","role":"Port viewer","note":""},{"repo":"steven-ahfu/Portwatch","role":"Portainer client","note":""},{"repo":"pipeworx-io/mcp-imf-portwatch","role":"IMF shipping data","note":""},{"repo":"LWHikarik/port_watcher","role":"IMF shipping data","note":""},{"repo":"AlessandraSozzi/portwatch-monitor","role":"No description","note":""},{"repo":"dingran/portwatch","role":"No description","note":""},{"repo":"4NK1T/PortWatch","role":"No description","note":""}],"note":"None of these repos are this site, and none are compatibility projects. They are listed so that nobody mistakes them for PortWatch, and they stay hidden in the catalogue unless you ask for them.","revisions":[{"date":"2026-10-15","summary":"First note."}]}]}
+{
+  "snapshot": "2026-10-15",
+  "source": "GitHub REST API (public metadata only)",
+  "starsPerDayMethod": "Stars at snapshot divided by days since the repo was created.",
+  "categories": [
+    {
+      "id": "ps5-pc",
+      "label": "PS5 → PC",
+      "blurb": "Running PS5 software on desktop operating systems."
+    },
+    {
+      "id": "switch-ios",
+      "label": "Switch → iOS",
+      "blurb": "Switch games, from your own copy, on iPhone, iPad and Mac."
+    },
+    {
+      "id": "steamos-arm",
+      "label": "SteamOS on ARM",
+      "blurb": "SteamOS or its experience on Android and ARM devices."
+    },
+    {
+      "id": "android-steamos",
+      "label": "Android on SteamOS",
+      "blurb": "The reverse trip: Android apps on a Steam Deck."
+    },
+    {
+      "id": "recomp",
+      "label": "Decomp / recomp",
+      "blurb": "Executables translated or recompiled to native code."
+    },
+    {
+      "id": "drivers",
+      "label": "Driver layers",
+      "blurb": "Graphics drivers and rendering layers for unsupported hardware."
+    },
+    {
+      "id": "bridges",
+      "label": "Protocol bridges",
+      "blurb": "CarPlay, AirDrop and other closed protocols on open hardware."
+    },
+    {
+      "id": "tools",
+      "label": "Trackers & tools",
+      "blurb": "Installers, trackers and helpers around the projects above."
+    }
+  ],
+  "projects": [
+    {
+      "name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "stars": 38494,
+      "forks": 3425,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "created": "2026-08-03",
+      "updated": "2026-10-15",
+      "topics": [
+        "anyps5",
+        "dynamic-library",
+        "game-porting",
+        "ps5",
+        "ps5-tools",
+        "spir-v"
+      ],
+      "homepage": "https://boykopovar.github.io/AnyPS5/",
+      "summary": "Ports PS5 executables so they run on Linux and Windows, with automatic translation of graphics code to SPIR-V.",
+      "categories": [
+        "ps5-pc",
+        "recomp"
+      ],
+      "platforms": [
+        "Linux",
+        "Windows"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Automatic PS5 executables porting to Linux and Windows",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        }
+      ]
+    },
+    {
+      "name": "shihabal3amri/DiPlay",
+      "url": "https://github.com/shihabal3amri/DiPlay",
+      "description": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview.",
+      "stars": 10908,
+      "forks": 1382,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "created": "2026-09-24",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": "https://shihabal3amri.github.io/DiPlay/",
+      "summary": "A CarPlay receiver that runs on compatible Android car head units.",
+      "categories": [
+        "bridges"
+      ],
+      "platforms": [
+        "Android head units"
+      ],
+      "byog": {
+        "level": "none",
+        "label": "No game files involved"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Wired and wireless public preview",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/shihabal3amri/DiPlay"
+        }
+      ]
+    },
+    {
+      "name": "Droid-Deck/DroidDeck",
+      "url": "https://github.com/Droid-Deck/DroidDeck",
+      "description": "DroidDeck brings the SteamOS experience to Android",
+      "stars": 8908,
+      "forks": 428,
+      "language": "Kotlin",
+      "license": "GPL-3.0",
+      "created": "2026-09-24",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": null,
+      "summary": "Brings the SteamOS experience to Android devices.",
+      "categories": [
+        "steamos-arm"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Brings the SteamOS experience to Android",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Droid-Deck/DroidDeck"
+        }
+      ]
+    },
+    {
+      "name": "Zelda64Recomp/Zelda64Recomp",
+      "url": "https://github.com/Zelda64Recomp/Zelda64Recomp",
+      "description": "Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC (Windows/Linux/Mac)",
+      "stars": 7429,
+      "forks": 343,
+      "language": "C",
+      "license": "GPL-3.0",
+      "created": "2023-10-23",
+      "updated": "2026-09-25",
+      "topics": [],
+      "homepage": null,
+      "summary": "A static recompilation of Majora's Mask for PC, with Ocarina of Time planned.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Static recompilation of Majora's Mask (and soon Ocarina of Time) for PC (Windows/Linux/Mac)",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Zelda64Recomp/Zelda64Recomp"
+        }
+      ]
+    },
+    {
+      "name": "Provenance-Emu/Provenance",
+      "url": "https://github.com/Provenance-Emu/Provenance",
+      "description": "iOS & tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… Get Started:  https://wiki.provenance-emu.com  | ",
+      "stars": 6387,
+      "forks": 711,
+      "language": "C++",
+      "license": "NOASSERTION",
+      "created": "2013-08-27",
+      "updated": "2026-10-15",
+      "topics": [
+        "atari",
+        "catalyst",
+        "emulation",
+        "emulator",
+        "game",
+        "gameboy"
+      ],
+      "homepage": "https://provenance-emu.com",
+      "summary": "A multi-emulator frontend for iOS and tvOS that runs games from Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony consoles.",
+      "categories": [
+        "switch-ios"
+      ],
+      "platforms": [
+        "iOS",
+        "tvOS"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "iOS & tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems… Get Started:  https://wiki.provenance-emu.com  | ",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Provenance-Emu/Provenance"
+        }
+      ]
+    },
+    {
+      "name": "hedge-dev/UnleashedRecomp",
+      "url": "https://github.com/hedge-dev/UnleashedRecomp",
+      "description": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
+      "stars": 5189,
+      "forks": 430,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "created": "2024-09-30",
+      "updated": "2026-06-29",
+      "topics": [],
+      "homepage": null,
+      "summary": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed, made by static recompilation.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/hedge-dev/UnleashedRecomp"
+        }
+      ]
+    },
+    {
+      "name": "nullmoth/nvidia-macos-driver",
+      "url": "https://github.com/nullmoth/nvidia-macos-driver",
+      "description": "Metal driver for NVIDIA GeForce cards on macOS Sequoia",
+      "stars": 3125,
+      "forks": 299,
+      "language": "Rust",
+      "license": "NOASSERTION",
+      "created": "2026-10-07",
+      "updated": "2026-10-15",
+      "topics": [
+        "kext",
+        "macos",
+        "metal",
+        "nvidia",
+        "opencore",
+        "vulkan"
+      ],
+      "homepage": "https://nullmothsystems.com",
+      "summary": "A Metal driver that lets NVIDIA GeForce cards work on macOS Sequoia.",
+      "categories": [
+        "drivers"
+      ],
+      "platforms": [
+        "macOS Sequoia"
+      ],
+      "byog": {
+        "level": "none",
+        "label": "No game files involved"
+      },
+      "family": "nvidia-macos",
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Metal driver for NVIDIA GeForce cards on macOS Sequoia",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/nullmoth/nvidia-macos-driver"
+        }
+      ]
+    },
+    {
+      "name": "jhaizhou-ops/d2r-mobile",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes.",
+      "stars": 3050,
+      "forks": 932,
+      "language": "C",
+      "license": "MIT",
+      "created": "2026-10-12",
+      "updated": "2026-10-15",
+      "topics": [
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "ios",
+        "ipad"
+      ],
+      "homepage": null,
+      "summary": "Runs your own Switch copy of Diablo II: Resurrected natively on iPhone, iPad and Mac.",
+      "categories": [
+        "switch-ios",
+        "recomp"
+      ],
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS"
+      ],
+      "byog": {
+        "level": "stated",
+        "label": "Own copy required, stated by the project"
+      },
+      "family": "d2r-mobile",
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Runs your own Switch copy natively on iPhone, iPad and Mac",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+        },
+        {
+          "date": "2026-10-15",
+          "text": "Full touch controls, 60 fps, new endgame modes",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/jhaizhou-ops/d2r-mobile"
+        }
+      ]
+    },
+    {
+      "name": "t4t5/omdrop-owl",
+      "url": "https://github.com/t4t5/omdrop-owl",
+      "description": "airdrop for non-apple devices",
+      "stars": 2736,
+      "forks": 213,
+      "language": "Shell",
+      "license": null,
+      "created": "2026-10-08",
+      "updated": "2026-10-14",
+      "topics": [
+        "airdrop",
+        "awdl",
+        "omarchy",
+        "owl"
+      ],
+      "homepage": null,
+      "summary": "AirDrop for non-Apple devices, built on the open AWDL implementation OWL.",
+      "categories": [
+        "bridges"
+      ],
+      "platforms": [
+        "Non-Apple devices"
+      ],
+      "byog": {
+        "level": "none",
+        "label": "No game files involved"
+      },
+      "family": null,
+      "claims": []
+    },
+    {
+      "name": "strato-emu/strato",
+      "url": "https://github.com/strato-emu/strato",
+      "description": "Run Nintendo Switch homebrew & games on your Android device!",
+      "stars": 2348,
+      "forks": 297,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "created": "2023-05-09",
+      "updated": "2024-09-02",
+      "topics": [
+        "android",
+        "c-plus-plus",
+        "cpp",
+        "emulation",
+        "emulator",
+        "nintendo"
+      ],
+      "homepage": "https://strato-emu.github.io",
+      "summary": "Runs Nintendo Switch homebrew and games on Android devices.",
+      "categories": [
+        "android-steamos"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Run Nintendo Switch homebrew & games on your Android device!",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/strato-emu/strato"
+        }
+      ]
+    },
+    {
+      "name": "ares-emulator/ares",
+      "url": "https://github.com/ares-emulator/ares",
+      "description": "ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.",
+      "stars": 1836,
+      "forks": 236,
+      "language": "C++",
+      "license": "NOASSERTION",
+      "created": "2021-06-30",
+      "updated": "2026-10-06",
+      "topics": [
+        "console",
+        "emulation",
+        "emulator",
+        "game",
+        "hacktoberfest",
+        "higan"
+      ],
+      "homepage": "https://ares-emu.net",
+      "summary": "An open-source emulator that runs many different consoles across platforms, with a focus on accuracy and preservation.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "ares is a cross-platform, open source, multi-system emulator, focusing on accuracy and preservation.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/ares-emulator/ares"
+        }
+      ]
+    },
+    {
+      "name": "0xNikilite/oboromi",
+      "url": "https://github.com/0xNikilite/oboromi",
+      "description": "a proof-of-concept project for a possible Nintendo Switch 2 emulator.",
+      "stars": 1305,
+      "forks": 55,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "created": "2025-06-09",
+      "updated": "2026-09-07",
+      "topics": [
+        "emulator",
+        "proof-of-concept",
+        "switch2",
+        "wip"
+      ],
+      "homepage": null,
+      "summary": "A proof-of-concept project toward a possible Nintendo Switch 2 emulator.",
+      "categories": [
+        "switch-ios"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "a proof-of-concept project for a possible Nintendo Switch 2 emulator.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/0xNikilite/oboromi"
+        }
+      ]
+    },
+    {
+      "name": "snuri00/ps2-web-recomp",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "description": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime",
+      "stars": 938,
+      "forks": 86,
+      "language": "C++",
+      "license": "MIT",
+      "created": "2026-10-08",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": null,
+      "summary": "Runs PS2 games in the browser by statically recompiling them to WebAssembly, with a native runtime.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/snuri00/ps2-web-recomp"
+        }
+      ]
+    },
+    {
+      "name": "peiikai/LASRecomp",
+      "url": "https://github.com/peiikai/LASRecomp",
+      "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
+      "stars": 880,
+      "forks": 96,
+      "language": "C",
+      "license": "NOASSERTION",
+      "created": "2026-10-08",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": null,
+      "summary": "A static recompilation of the Switch version of Link's Awakening that runs natively on macOS, Windows and Linux.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "macOS",
+        "Windows",
+        "Linux"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/peiikai/LASRecomp"
+        }
+      ]
+    },
+    {
+      "name": "nmlgc/ReC98",
+      "url": "https://github.com/nmlgc/ReC98",
+      "description": "The Touhou PC-98 Restoration Project",
+      "stars": 875,
+      "forks": 35,
+      "language": "Assembly",
+      "license": null,
+      "created": "2014-06-27",
+      "updated": "2026-03-16",
+      "topics": [
+        "anime",
+        "borland",
+        "decompilation",
+        "dos",
+        "pc-98",
+        "pc98"
+      ],
+      "homepage": "https://rec98.nmlgc.net",
+      "summary": "A project to restore the Touhou games released for the PC-98.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC-98"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "The Touhou PC-98 Restoration Project",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/nmlgc/ReC98"
+        }
+      ]
+    },
+    {
+      "name": "sonicnext-dev/MarathonRecomp",
+      "url": "https://github.com/sonicnext-dev/MarathonRecomp",
+      "description": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
+      "stars": 674,
+      "forks": 126,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "created": "2025-03-27",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": null,
+      "summary": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006), made by static recompilation.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/sonicnext-dev/MarathonRecomp"
+        }
+      ]
+    },
+    {
+      "name": "arcanite24/pinyon-shift",
+      "url": "https://github.com/arcanite24/pinyon-shift",
+      "description": "A playable preview of Forza Horizon static recompilation",
+      "stars": 651,
+      "forks": 25,
+      "language": "Python",
+      "license": "BSD-3-Clause",
+      "created": "2026-08-25",
+      "updated": "2026-10-15",
+      "topics": [
+        "forza-horizon",
+        "rexglue",
+        "static-recompilation",
+        "windows",
+        "xbox-360"
+      ],
+      "homepage": "https://arcanite24.github.io/pinyon-shift/",
+      "summary": "A playable preview of a static recompilation of Forza Horizon.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A playable preview of Forza Horizon static recompilation",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/arcanite24/pinyon-shift"
+        }
+      ]
+    },
+    {
+      "name": "freefrank/LostOdysseyRecomp",
+      "url": "https://github.com/freefrank/LostOdysseyRecomp",
+      "description": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
+      "stars": 618,
+      "forks": 26,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "created": "2026-09-05",
+      "updated": "2026-10-15",
+      "topics": [],
+      "homepage": null,
+      "summary": "An experimental native PC port of Lost Odyssey, made by static recompilation. No game assets are included.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Experimental native PC port of Lost Odyssey using static recompilation. No game assets included.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/freefrank/LostOdysseyRecomp"
+        }
+      ]
+    },
+    {
+      "name": "BlackLabelHQ/RecompOne",
+      "url": "https://github.com/BlackLabelHQ/RecompOne",
+      "description": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
+      "stars": 570,
+      "forks": 36,
+      "language": "C#",
+      "license": "MIT",
+      "created": "2026-05-30",
+      "updated": "2026-10-08",
+      "topics": [
+        "mipsr3000a",
+        "ps1",
+        "recompilation"
+      ],
+      "homepage": null,
+      "summary": "A static recompiler and runtime for PlayStation 1 games.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "PSX Static Recompiler and Runtime, Not Affiliated With Sony or PlayStation",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/BlackLabelHQ/RecompOne"
+        }
+      ]
+    },
+    {
+      "name": "pebri86/esplay-retro-emulation",
+      "url": "https://github.com/pebri86/esplay-retro-emulation",
+      "description": "Retro Emulation Collection for ESPlay Hardware, an ESP32 based game console",
+      "stars": 528,
+      "forks": 98,
+      "language": "C",
+      "license": "MIT",
+      "created": "2019-03-18",
+      "updated": "2026-01-08",
+      "topics": [
+        "console",
+        "emulator",
+        "esp32",
+        "gameboy",
+        "gamegear",
+        "gb"
+      ],
+      "homepage": "https://www.makerfabs.com/esplay-micro.html",
+      "summary": "A set of retro console emulators for the ESPlay, a handheld built on the ESP32.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [
+        "ESP32"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Retro Emulation Collection for ESPlay Hardware, an ESP32 based game console",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/pebri86/esplay-retro-emulation"
+        }
+      ]
+    },
+    {
+      "name": "florinp93/hells-gate-recomp",
+      "url": "https://github.com/florinp93/hells-gate-recomp",
+      "description": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
+      "stars": 523,
+      "forks": 25,
+      "language": "C++",
+      "license": null,
+      "created": "2026-08-31",
+      "updated": "2026-10-12",
+      "topics": [],
+      "homepage": null,
+      "summary": "A port of the Xbox 360 version of Dante's Inferno to PC, made by static recompilation with ReXGlue.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Xbox 360 to PC port of Dante's Inferno using ReXGlue (static recompilation)",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/florinp93/hells-gate-recomp"
+        }
+      ]
+    },
+    {
+      "name": "halo-re/halo",
+      "url": "https://github.com/halo-re/halo",
+      "description": "Halo: Combat Evolved (for original Xbox) Decompilation Research Project",
+      "stars": 451,
+      "forks": 39,
+      "language": "C",
+      "license": null,
+      "created": "2022-07-15",
+      "updated": "2023-10-09",
+      "topics": [
+        "decompilation",
+        "hacktoberfest",
+        "halo",
+        "halo-ce",
+        "patching",
+        "xbox"
+      ],
+      "homepage": "https://blam.info",
+      "summary": "A research project to decompile Halo: Combat Evolved for the original Xbox.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Halo: Combat Evolved (for original Xbox) Decompilation Research Project",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/halo-re/halo"
+        }
+      ]
+    },
+    {
+      "name": "sp00nznet/ps3recomp",
+      "url": "https://github.com/sp00nznet/ps3recomp",
+      "description": "Static recompilation runtime libraries for PlayStation 3 titles. ",
+      "stars": 446,
+      "forks": 56,
+      "language": "C",
+      "license": "MIT",
+      "created": "2026-03-11",
+      "updated": "2026-10-13",
+      "topics": [],
+      "homepage": null,
+      "summary": "Runtime libraries for statically recompiled PlayStation 3 games.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Static recompilation runtime libraries for PlayStation 3 titles. ",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/sp00nznet/ps3recomp"
+        }
+      ]
+    },
+    {
+      "name": "TeamGDB/Yakumo",
+      "url": "https://github.com/TeamGDB/Yakumo",
+      "description": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
+      "stars": 442,
+      "forks": 33,
+      "language": "C++",
+      "license": "MIT",
+      "created": "2026-09-18",
+      "updated": "2026-10-13",
+      "topics": [
+        "allegrex",
+        "cpp20",
+        "mips",
+        "playstation-portable",
+        "psp",
+        "recompilation"
+      ],
+      "homepage": "https://teamgdb.github.io/Yakumo/",
+      "summary": "A static recompilation of a PSP game into a native executable that uses Vulkan and SDL3. You supply your own copy of the game.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Static recompilation of a PSP game into a native executable. Vulkan and SDL3. Bring your own copy of the game.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/TeamGDB/Yakumo"
+        }
+      ]
+    },
+    {
+      "name": "Chiplis/IronBoy",
+      "url": "https://github.com/Chiplis/IronBoy",
+      "description": "A Gameboy emulator written in Rust as both a learning exercise and a love letter to the console that got me into gaming.",
+      "stars": 417,
+      "forks": 13,
+      "language": "Rust",
+      "license": null,
+      "created": "2021-06-08",
+      "updated": "2026-08-28",
+      "topics": [],
+      "homepage": null,
+      "summary": "A Game Boy emulator written in Rust, started as a learning project.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A Gameboy emulator written in Rust as both a learning exercise and a love letter to the console that got me into gaming.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Chiplis/IronBoy"
+        }
+      ]
+    },
+    {
+      "name": "CTR-tools/ctr-native",
+      "url": "https://github.com/CTR-tools/ctr-native",
+      "description": "A Crash Team Racing Decompilation Project",
+      "stars": 405,
+      "forks": 55,
+      "language": "C",
+      "license": "GPL-3.0",
+      "created": "2026-05-16",
+      "updated": "2026-10-12",
+      "topics": [
+        "crash-bandicoot",
+        "crash-team-racing",
+        "decompilation",
+        "playstation",
+        "ps1",
+        "psx"
+      ],
+      "homepage": "https://discord.gg/WHkuh2n",
+      "summary": "A project to decompile Crash Team Racing.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A Crash Team Racing Decompilation Project",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/CTR-tools/ctr-native"
+        }
+      ]
+    },
+    {
+      "name": "lrusso/Emulatrix",
+      "url": "https://github.com/lrusso/Emulatrix",
+      "description": "Emulator with mobile compatibility designed for running in pure JavaScript pre-ECMAScript 2015 (no WebAssembly). Supports Sega Genesis, 32x, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOS",
+      "stars": 372,
+      "forks": 137,
+      "language": "HTML",
+      "license": "MIT",
+      "created": "2018-08-05",
+      "updated": "2026-09-27",
+      "topics": [
+        "32x",
+        "advance",
+        "android",
+        "console",
+        "dos",
+        "dosbox"
+      ],
+      "homepage": "https://www.emulatrix.com",
+      "summary": "A pure JavaScript emulator that uses no WebAssembly and works on mobile. It runs Genesis, 32X, NES, SNES, Game Boy, GBC, GBA, MAME and DOS software.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Emulator with mobile compatibility designed for running in pure JavaScript pre-ECMAScript 2015 (no WebAssembly). Supports Sega Genesis, 32x, Nintendo, Super Nintendo, GameBoy, GameBoy Color, GameBoy Advance, MAME and DOS",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/lrusso/Emulatrix"
+        }
+      ]
+    },
+    {
+      "name": "birabittoh/NocturneRecomp",
+      "url": "https://github.com/birabittoh/NocturneRecomp",
+      "description": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
+      "stars": 362,
+      "forks": 22,
+      "language": "C++",
+      "license": "MIT",
+      "created": "2026-06-06",
+      "updated": "2026-08-27",
+      "topics": [],
+      "homepage": "https://goopie.xyz/#/library/nocturnerecomp",
+      "summary": "A static recompilation of the XBLA version of Castlevania: Symphony of the Night for Windows and Linux, built on the ReXGlue SDK.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "Windows",
+        "Linux"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Static recompilation of Castlevania: Symphony of the Night (XBLA) for Windows and Linux, built on the ReXGlue SDK.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/birabittoh/NocturneRecomp"
+        }
+      ]
+    },
+    {
+      "name": "goliathret/EdgeOfTimeRecomp",
+      "url": "https://github.com/goliathret/EdgeOfTimeRecomp",
+      "description": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
+      "stars": 349,
+      "forks": 9,
+      "language": "C++",
+      "license": "BSD-3-Clause",
+      "created": "2026-07-04",
+      "updated": "2026-10-08",
+      "topics": [],
+      "homepage": null,
+      "summary": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time, made by static recompilation.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "An unofficial PC port of the Xbox 360 version of Spider-Man: Edge of Time created through the process of static recompilation.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/goliathret/EdgeOfTimeRecomp"
+        }
+      ]
+    },
+    {
+      "name": "DinosaurPlanetRecomp/dino-recomp",
+      "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+      "description": "A static recompilation/native port of Dinosaur Planet (Dec 2000 prototype).",
+      "stars": 327,
+      "forks": 11,
+      "language": "C++",
+      "license": "GPL-3.0",
+      "created": "2024-05-18",
+      "updated": "2026-09-25",
+      "topics": [],
+      "homepage": null,
+      "summary": "A static recompilation and native port of the December 2000 prototype of Dinosaur Planet.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A static recompilation/native port of Dinosaur Planet (Dec 2000 prototype).",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/DinosaurPlanetRecomp/dino-recomp"
+        }
+      ]
+    },
+    {
+      "name": "xenon-emu/xenon",
+      "url": "https://github.com/xenon-emu/xenon",
+      "description": "Xbox 360 Low Level Emulator written for the purpose of researching on the Xenon Game Console hardware internals.",
+      "stars": 312,
+      "forks": 27,
+      "language": "C++",
+      "license": "GPL-2.0",
+      "created": "2024-01-13",
+      "updated": "2026-09-21",
+      "topics": [
+        "emulation",
+        "reverse-engineering",
+        "xbox"
+      ],
+      "homepage": null,
+      "summary": "A low-level Xbox 360 emulator built to research the hardware inside the Xenon console.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Xbox 360 Low Level Emulator written for the purpose of researching on the Xenon Game Console hardware internals.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/xenon-emu/xenon"
+        }
+      ]
+    },
+    {
+      "name": "theclub654/ProjectCane",
+      "url": "https://github.com/theclub654/ProjectCane",
+      "description": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
+      "stars": 261,
+      "forks": 9,
+      "language": "C++",
+      "license": null,
+      "created": "2023-09-03",
+      "updated": "2026-10-15",
+      "topics": [
+        "decompilation",
+        "ps2",
+        "reverse-engineering",
+        "sly-cooper"
+      ],
+      "homepage": "https://discord.gg/Nq2mCkgrS",
+      "summary": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt by reverse engineering.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [
+        "PC"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A playable PC port of Sly Cooper and the Thievius Raccoonus, rebuilt through reverse engineering.",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/theclub654/ProjectCane"
+        }
+      ]
+    },
+    {
+      "name": "Patoke/re-plants-vs-zombies",
+      "url": "https://github.com/Patoke/re-plants-vs-zombies",
+      "description": "A project to rebuild all functionality via reverse engineering from the GOTY version of Plants VS Zombies (and expand upon it)",
+      "stars": 234,
+      "forks": 47,
+      "language": "C++",
+      "license": "CC0-1.0",
+      "created": "2023-07-31",
+      "updated": "2026-07-11",
+      "topics": [
+        "decompilation",
+        "decompiled",
+        "plants-vs-zombies",
+        "plantsvszombies",
+        "pvz",
+        "pvz-custom"
+      ],
+      "homepage": null,
+      "summary": "A project to rebuild all of the GOTY edition of Plants vs. Zombies by reverse engineering, then extend it.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "A project to rebuild all functionality via reverse engineering from the GOTY version of Plants VS Zombies (and expand upon it)",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Patoke/re-plants-vs-zombies"
+        }
+      ]
+    },
+    {
+      "name": "bfbbdecomp/bfbb",
+      "url": "https://github.com/bfbbdecomp/bfbb",
+      "description": "Decompilation project for SpongeBob SquarePants: Battle for Bikini Bottom",
+      "stars": 191,
+      "forks": 47,
+      "language": "C++",
+      "license": "CC0-1.0",
+      "created": "2020-08-30",
+      "updated": "2026-08-31",
+      "topics": [],
+      "homepage": "https://bfbbdecomp.github.io/bfbb/",
+      "summary": "A project to decompile SpongeBob SquarePants: Battle for Bikini Bottom.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Decompilation project for SpongeBob SquarePants: Battle for Bikini Bottom",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/bfbbdecomp/bfbb"
+        }
+      ]
+    },
+    {
+      "name": "TheMobyCollective/spyro-1",
+      "url": "https://github.com/TheMobyCollective/spyro-1",
+      "description": "Spyro the Dragon Decompilation Project",
+      "stars": 175,
+      "forks": 15,
+      "language": "C",
+      "license": "CC0-1.0",
+      "created": "2025-01-23",
+      "updated": "2026-10-03",
+      "topics": [],
+      "homepage": null,
+      "summary": "A project to decompile Spyro the Dragon.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Spyro the Dragon Decompilation Project",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/TheMobyCollective/spyro-1"
+        }
+      ]
+    },
+    {
+      "name": "tanakh/meru",
+      "url": "https://github.com/tanakh/meru",
+      "description": "Multiple game consoles emulator written in Rust",
+      "stars": 129,
+      "forks": 9,
+      "language": "Rust",
+      "license": "MIT",
+      "created": "2022-06-21",
+      "updated": "2022-08-31",
+      "topics": [
+        "emulator"
+      ],
+      "homepage": "https://meru-emu.com/",
+      "summary": "An emulator for several game consoles, written in Rust.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Multiple game consoles emulator written in Rust",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/tanakh/meru"
+        }
+      ]
+    },
+    {
+      "name": "Mikompilation/Himuro",
+      "url": "https://github.com/Mikompilation/Himuro",
+      "description": "Fatal Frame 1 Decompilation Project",
+      "stars": 127,
+      "forks": 5,
+      "language": "C",
+      "license": "MIT",
+      "created": "2024-06-14",
+      "updated": "2026-10-12",
+      "topics": [],
+      "homepage": "https://mikompilation.com/",
+      "summary": "A project to decompile Fatal Frame.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Fatal Frame 1 Decompilation Project",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/Mikompilation/Himuro"
+        }
+      ]
+    },
+    {
+      "name": "chrissotraidis/projectreach",
+      "url": "https://github.com/chrissotraidis/projectreach",
+      "description": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on ",
+      "stars": 123,
+      "forks": 24,
+      "language": "C",
+      "license": null,
+      "created": "2026-09-06",
+      "updated": "2026-10-15",
+      "topics": [
+        "decompilation",
+        "game-port",
+        "halo",
+        "halo-ce",
+        "ios",
+        "ipad"
+      ],
+      "homepage": null,
+      "summary": "A port of Halo: Combat Evolved for iPhone, iPad and Mac that includes the Xbox edition, with its campaign and online matches of up to 128 players, plus Halo Custom Edition with its community servers. You supply your own copy of the game.",
+      "categories": [
+        "switch-ios"
+      ],
+      "platforms": [
+        "iOS",
+        "iPadOS",
+        "macOS"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on ",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/chrissotraidis/projectreach"
+        }
+      ]
+    },
+    {
+      "name": "ladysilverberg/xenogears-decomp",
+      "url": "https://github.com/ladysilverberg/xenogears-decomp",
+      "description": "Matching decompilation project for Xenogears",
+      "stars": 121,
+      "forks": 11,
+      "language": "C",
+      "license": null,
+      "created": "2025-04-02",
+      "updated": "2026-10-10",
+      "topics": [],
+      "homepage": null,
+      "summary": "A project to produce a matching decompilation of Xenogears.",
+      "categories": [
+        "recomp"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Matching decompilation project for Xenogears",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/ladysilverberg/xenogears-decomp"
+        }
+      ]
+    },
+    {
+      "name": "mikebenfield/euphrates",
+      "url": "https://github.com/mikebenfield/euphrates",
+      "description": "Game console emulator",
+      "stars": 105,
+      "forks": 0,
+      "language": "Rust",
+      "license": "GPL-3.0",
+      "created": "2018-03-25",
+      "updated": "2018-10-01",
+      "topics": [],
+      "homepage": null,
+      "summary": "A game console emulator.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Game console emulator",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/mikebenfield/euphrates"
+        }
+      ]
+    },
+    {
+      "name": "clydeshaffer/GameTankEmulator",
+      "url": "https://github.com/clydeshaffer/GameTankEmulator",
+      "description": "An emulator for the GameTank, a real physical hardware game console I've built",
+      "stars": 93,
+      "forks": 29,
+      "language": "C++",
+      "license": "MIT",
+      "created": "2020-04-16",
+      "updated": "2026-09-28",
+      "topics": [],
+      "homepage": null,
+      "summary": "An emulator for the GameTank, a physical homebrew game console built by the author.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "An emulator for the GameTank, a real physical hardware game console I've built",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/clydeshaffer/GameTankEmulator"
+        }
+      ]
+    },
+    {
+      "name": "kode54/Game_Music_Emu",
+      "url": "https://github.com/kode54/Game_Music_Emu",
+      "description": "Game Music Emu - Multi-purpose console music emulator and player library",
+      "stars": 85,
+      "forks": 16,
+      "language": "C++",
+      "license": null,
+      "created": "2012-08-11",
+      "updated": "2018-10-25",
+      "topics": [],
+      "homepage": null,
+      "summary": "A library and player that emulates the sound hardware of game consoles to play their music.",
+      "categories": [
+        "tools"
+      ],
+      "platforms": [],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "Game Music Emu - Multi-purpose console music emulator and player library",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/kode54/Game_Music_Emu"
+        }
+      ]
+    },
+    {
+      "name": "craze1pirate/craziiEmu",
+      "url": "https://github.com/craze1pirate/craziiEmu",
+      "description": "An experimental, Windows-only PlayStation 5 compatibility layer and emulator written in C# (.NET 10) and Vulkan. Features direct x86-64 host execution, console-inspired dashboard, and active commercial game compatibility",
+      "stars": 77,
+      "forks": 2,
+      "language": "C#",
+      "license": "GPL-2.0",
+      "created": "2026-07-13",
+      "updated": "2026-09-27",
+      "topics": [],
+      "homepage": null,
+      "summary": "An experimental PlayStation 5 compatibility layer and emulator for Windows, written in C# (.NET 10) with Vulkan. It runs x86-64 code directly on the host, includes a dashboard styled after the console, and says it can run some commercial ga",
+      "categories": [
+        "ps5-pc"
+      ],
+      "platforms": [
+        "Windows"
+      ],
+      "byog": {
+        "level": "required",
+        "label": "Own copy required (PortWatch rule)"
+      },
+      "family": null,
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "An experimental, Windows-only PlayStation 5 compatibility layer and emulator written in C# (.NET 10) and Vulkan. Features direct x86-64 host execution, console-inspired dashboard, and active commercial game compatibility",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/craze1pirate/craziiEmu"
+        }
+      ]
+    },
+    {
+      "name": "d2r-mobile/d2r-mobile",
+      "url": "https://github.com/d2r-mobile/d2r-mobile",
+      "description": "Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy. 60 fps, ~10 h battery in power saver mode, 1-tap Runewords, a 100-level Greater Rift. Build it with one sentence to Claude Code or Code",
+      "stars": 66,
+      "forks": 16,
+      "language": "C",
+      "license": "MIT",
+      "created": "2026-10-12",
+      "updated": "2026-10-15",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "compatibility-layer",
+        "diablo",
+        "diablo-2-resurrected"
+      ],
+      "homepage": null,
+      "summary": "Diablo II: Resurrected as native code on iPhone and iPad, from your own Switch copy.",
+      "categories": [
+        "switch-ios",
+        "recomp"
+      ],
+      "platforms": [
+        "iOS",
+        "iPadOS"
+      ],
+      "byog": {
+        "level": "stated",
+        "label": "Own copy required, stated by the project"
+      },
+      "family": "d2r-mobile",
+      "claims": [
+        {
+          "date": "2026-10-15",
+          "text": "60 fps, ~10 h battery in power saver mode",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/d2r-mobile/d2r-mobile"
+        },
+        {
+          "date": "2026-10-15",
+          "text": "1-tap Runewords, a 100-level Greater Rift",
+          "source": "Repo description, via GitHub API",
+          "url": "https://github.com/d2r-mobile/d2r-mobile"
+        }
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "d2r-mobile",
+      "name": "d2r-mobile",
+      "kind": "Same name, four repos",
+      "members": [
+        {
+          "repo": "jhaizhou-ops/d2r-mobile",
+          "role": "Most starred",
+          "note": "The only one that also names Mac as a target. The other three say iPhone and iPad."
+        },
+        {
+          "repo": "d2r-mobile/d2r-mobile",
+          "role": "Org-named repo",
+          "note": "Description adds battery life, 1-tap Runewords, a Greater Rift, and building it by asking Claude Code or Codex."
+        }
+      ],
+      "note": "All four were created on 12 Oct 2026 under MIT and all describe running your own Switch copy of Diablo II: Resurrected on Apple devices. The snapshot does not say which is upstream. Use \"Check live\" to ask GitHub whether any of them is a registered fork.",
+      "revisions": [
+        {
+          "date": "2026-10-15",
+          "summary": "First note, written from the four repo descriptions."
+        }
+      ]
+    }
+  ]
+}
